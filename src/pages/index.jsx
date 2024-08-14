@@ -45,13 +45,14 @@ export function Index() {
             >
               Pide tu turno
             </Link>
-            <a
+            <Link
+              to="/trabaja-con-nosotros"
               className="bg-[#fafafa] text-sm text-nowrap rounded-xl w-40 h-8 my-4 mr-4 justify-center items-center hidden
             md:flex md:w-3/5 md:h-10 md:text-base lg:text-xl"
             >
               {" "}
               Trabaja con nosotros
-            </a>
+            </Link>
           </div>
         </section>
       </header>
