@@ -10,6 +10,9 @@ body {
   margin: 0;
   background-color: #ddddd0;
 }
+#root {
+  min-height: 100vh;
+}
 nav {
   border-radius: 0px 20px 20px 0px;
 }

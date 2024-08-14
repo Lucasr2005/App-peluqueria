@@ -241,14 +241,7 @@ export function Turn() {
           ""
         )}
       </main>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
-      <br />
       <Footer />
     </>
   );
