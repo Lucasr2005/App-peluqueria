@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "http://localhost:3001/api/turnos"
+const baseUrl = "https://app-peluqueria-backend.vercel.app/api/turnos"
 const getTurns = async (data) => {
     // console.log(data)
 
