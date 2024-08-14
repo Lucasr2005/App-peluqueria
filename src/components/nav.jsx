@@ -54,14 +54,17 @@ export function Nav() {
             />
             Pedir turno
           </Link>
-          <li className="flex items-center mb-4">
+          <Link
+            to="/trabaja-con-nosotros"
+            className="flex items-center mb-4"
+          >
             <img
               className="w-8 h-8 invert mx-4"
               src="https://i.postimg.cc/PxGKRV5Y/icono-peluqueria.webp"
               alt=""
             />
-            <a href="/">Trabaja con nosotros</a>
-          </li>
+            Trabaja con nosotros
+          </Link>
         </ul>
         <section className=" flex flex-row justify-center  mb-2 absolute bottom-0 w-full ">
           <a
