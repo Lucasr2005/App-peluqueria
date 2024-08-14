@@ -1,6 +1,4 @@
 import { useState } from "react";
-import arfanLogo from "../images/arfan-logo.webp";
-
 import { Link } from "react-router-dom";
 export function Nav() {
   const [sideBar, setSideBar] = useState(false);
@@ -27,7 +25,7 @@ export function Nav() {
         >
           <img
             className="  w-36 "
-            src={arfanLogo}
+            src="https://i.postimg.cc/rsknKZ6M/arfan-logo.webp"
             alt=""
           />
         </Link>
