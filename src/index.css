@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  position: relative;
+  font-family: roboto, sistem-ui;
+  margin: 0;
+  background-color: #ddddd0;
+}
+nav {
+  border-radius: 0px 20px 20px 0px;
+}
+header {
+  border-radius: 0px 0px 10px 10px;
+}
+footer {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.react-datepicker__triangle,
+.react-datepicker__aria-live {
+  display: none;
+}
+
+.react-datepicker {
+  width: 330px;
+  background-color: #fafafa;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.react-datepicker__day--selected {
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+.react-datepicker__month-container {
+  display: flex;
+  flex-direction: column;
+}
+.react-datepicker__day-names,
+.react-datepicker__week {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.react-datepicker__header {
+  display: flex;
+  flex-direction: column;
+}
+.react-datepicker__day,
+.react-datepicker__day-name {
+  width: 20px;
+  text-align: center;
+}
+.react-datepicker__day {
+  cursor: pointer;
+}
+.react-datepicker__day-names {
+  border-bottom: 1px solid black;
+}
+.react-datepicker__navigation--previous {
+  margin-right: 100px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
